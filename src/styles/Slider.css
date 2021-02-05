@@ -1,0 +1,10 @@
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.item{
+    margin: 75px;
+    width: 150px;
+    height: 500px;
+}
