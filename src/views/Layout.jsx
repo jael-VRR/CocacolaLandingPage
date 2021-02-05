@@ -15,9 +15,7 @@ const Layout = () => {
       <div>
       <Content/>
       </div>
-      <div>
-        <Slider/>
-      </div>
+     
     </section>
   )
 }
