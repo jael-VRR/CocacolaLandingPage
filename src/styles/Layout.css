@@ -26,3 +26,8 @@ section  .circle{
     clip-path: circle(70% at right -20%);
 }
 
+main {
+    display: flex;
+    justify-content: space-between;
+
+}
