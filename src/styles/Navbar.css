@@ -1,0 +1,24 @@
+ .box-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+  }
+  .item-menu{
+    display: flex;
+    align-items: center;
+  }
+  .item-nav {
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+  }
