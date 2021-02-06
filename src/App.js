@@ -6,7 +6,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/layout">
+        <Route exact path="/">
           <Layout />
         </Route>
       </Switch>
