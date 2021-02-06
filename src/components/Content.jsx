@@ -1,6 +1,8 @@
 import React from "react";
-import '../styles/Content.css';
-
+import "../styles/Content.css";
+import facebook from "../images/facebook (1).png";
+import twitter from "../images/twitter.png";
+import instagram from "../images/instagram.png";
 
 function Content() {
   return (
@@ -15,7 +17,26 @@ function Content() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum."
       </p>
-      <i className="link">Learn More</i>
+      <a className="link" href="/">
+        Learn More
+      </a>
+      <ul className="sci">
+        <li>
+          <a href="/">
+            <img className="fa" src={facebook} alt="facebook" />
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <img className="fa" src={twitter} alt="twitter" />
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <img className="fa" src={instagram} alt="instagram" />
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
